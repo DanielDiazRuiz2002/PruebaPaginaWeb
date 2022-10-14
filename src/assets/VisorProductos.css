@@ -15,3 +15,7 @@ div [id ^=button_nav]{
 div [id ^=prod]{
     padding: 0;
 }
+
+button{
+    border: 0px;
+}

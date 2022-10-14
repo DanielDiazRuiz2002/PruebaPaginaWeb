@@ -88,9 +88,9 @@ function VisorProductos({ idProd, nameVisor }) {
         <h2 class="col-9">{nameVisor}</h2>
       </div>
       <div class="row no-gutters justify-content-center">
-        <div id="button_nav_izq" class="col-1" onClick={() => flecha_izq()}>
+        <button id="button_nav_izq" class="col-1" onClick={() => flecha_izq()}>
           <span class="flecha">‹</span>
-        </div>
+        </button>
         <div id="prod_1" class="col-3">
           <Product prod={listProd[idProd][idCol + 0]} />
         </div>
@@ -100,9 +100,9 @@ function VisorProductos({ idProd, nameVisor }) {
         <div id="prod_3" class="col-3">
           <Product prod={listProd[idProd][idCol + 2]} />
         </div>
-        <div id="button_nav_der" class="col-1" onClick={() => flecha_der()}>
+        <button id="button_nav_der" class="col-1" onClick={() => flecha_der()}>
           <span class="flecha">›</span>
-        </div>
+        </button>
       </div>
     </>
   );
